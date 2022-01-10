@@ -1,0 +1,57 @@
+instalar
+Requisito: haber instalado node.js previamente
+
+1-ejecutar npm install -g @angular/cli
+
+2- crear proyecto con:
+ng new "mi_proyecto" --style=css --routing=false
+
+3- crear el servidor local con:
+ ng serve
+
+4-npm install bootstrap
+modificar en angular.json==> styles y scripts
+styles
+"node_modules/bootstrap/dist/css/bootstrap.css"
+scripts
+"node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+
+5- creamos modulos:
+ ng g c components/navbar
+ng g c components/header
+ng g c components/portfolio
+ng g c components/about
+ng g c components/contact
+ng g c components/footer
+ng g c components/copyright
+
+
+
+copiar body html en app.components.html
+
+
+
+
+Revisar el sitio:
+https://startbootstrap.com   // templates de proyectos
+
+Web que permite trabajar y ver la edicion en tiempo real:(revisar como funcionan los modals, ejemplo)
+https://stackblitz.com/edit/angular-open-modal-afterviewinit-5s?file=src%2Fapp%2Fapp.component.css
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
